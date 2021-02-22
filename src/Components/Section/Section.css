@@ -1,0 +1,91 @@
+section {
+    width: 50%;
+    padding: 0 0 60px 0;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.title p {
+    position: relative;
+    right: 45px;
+}
+
+.container {
+    width: 100%;
+    margin-left: 20vw;
+    border-left: 3px solid rgba(0, 0, 0, 0.05);
+}
+
+.ul {
+    list-style: none;
+    padding: 40px 0 0 20px;
+}
+
+.ul span {
+    display: inline-block;
+    margin: 0 8px;
+    opacity: .75;
+    text-transform: uppercase;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease;
+}
+
+.column:hover {
+    margin-left: 15px;
+}
+
+
+.column a {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 3px;
+    transition: all .3s ease;
+}
+
+.column a, .column p {
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.column p {
+    margin: 5px 8px;
+}
+
+.column a:hover {
+    border-bottom: 1px solid #000;
+}
+
+.proTag {
+    width: 30px;
+    height: 30px;
+    background-color: olive;
+    border-radius: 50%;
+    position: relative;
+    left: -120px;
+}
+
+.scrollToTop {
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;
+}
+
+.lastUl {
+    height: 80px;
+}
+
+.bottom {
+    height: 50px;
+}

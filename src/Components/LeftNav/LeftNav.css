@@ -1,0 +1,32 @@
+.navBox {
+    position: fixed;
+    top: 30%;
+    left: 4%;
+}
+
+li {
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+.navBar {
+    border-left: 3px solid rgba(0, 0, 0, 0.05);
+    padding: 0 0 0 12px;
+}
+
+.navBar li a{
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.navBar li a:hover {
+    color: black;
+    margin-left: 15px;
+}
+
+.active {
+    font-weight: 900;
+    color: #000;
+}
+
