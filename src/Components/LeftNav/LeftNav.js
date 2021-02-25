@@ -3,15 +3,18 @@ import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, 
 import './LeftNav.css';
 
 function leftNav() {
+    const scrollToTop = () => {
+        scroll.scrollToTop();
+    }
+
+    
+
     return (
         <div className="navBox">
             <ul className="navBar">
-                <li><Link activeClass="active" to="profile" spy={true} smooth={true} duration={700} offset={-250}>PROFILE</Link></li>
-                <li><Link activeClass="active" to="workExperience" spy={true} smooth={true} duration={700} offset={-250}>WORK EXPERIENCE</Link></li>
-                <li><Link activeClass="active" to="education" spy={true} smooth={true} duration={700} offset={-250}>EDUCATION</Link></li>
-                <li><Link activeClass="active" to="selected" spy={true} smooth={true} duration={700} offset={-250}>SELECTED PUBLICATION</Link></li>
-                <li><Link activeClass="active" to="award" spy={true} smooth={true} duration={700} offset={-250}>AWARD</Link></li>
-                <li><Link activeClass="active" to="contact" spy={true} smooth={true} duration={700}>CONTACT</Link></li>
+                <li onClick={scrollToTop}></li>
+                <li><Link activeClass="active" to="skill" spy={true} smooth={true} duration={700}>321</Link></li>
+                <li><Link activeClass="active" to="cert1" spy={true} smooth={true} duration={700}>321</Link></li>
             </ul>
         </div>
     )

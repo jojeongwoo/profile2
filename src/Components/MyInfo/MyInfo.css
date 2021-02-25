@@ -1,5 +1,5 @@
 .myInfo {
-    width: 50%;
+    width: 100vh;
     margin: 7vh auto;
     display: flex;
     flex-direction: column;

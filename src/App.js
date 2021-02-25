@@ -7,15 +7,25 @@ import LeftNav from './Components/LeftNav/LeftNav';
 import MyInfo from './Components/MyInfo/MyInfo';
 import Profile from './Components/Section/Profile';
 
+
+import AboutMe from './Components2/AboutMe/AboutMe';
+import Certification from './Components2/Certification/Certification';
+import Skill from './Components2/Skill/Skill';
+
+
 function App() {
   return (
     <div className="App">
-      <div className="left">
+      {/* <div className="left">
         <LeftBtn />
         <LeftNav />
       </div>
       <MyInfo />
-      <Profile />
+      <Profile /> */}
+      <LeftNav />
+      <AboutMe />
+      <Skill />
+      <Certification />
     </div>
   );
 }

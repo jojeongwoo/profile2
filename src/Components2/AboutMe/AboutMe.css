@@ -1,0 +1,48 @@
+.aboutContent {
+    background-color: #90caf9;
+    height: 100vh;
+    width: 100%;
+    word-break: keep-all;
+}
+
+.aboutBox {
+    /* background-color: grey; */
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutUp {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.upText {
+    font-size: 60px;
+}
+
+.upImg {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.aboutMiddle {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.aboutDown > i {
+    padding: 10px 20px;
+    font-size: 35px;   
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+}
