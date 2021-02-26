@@ -10,7 +10,11 @@ import Profile from './Components/Section/Profile';
 
 import AboutMe from './Components2/AboutMe/AboutMe';
 import Certification from './Components2/Certification/Certification';
+import Education from './Components2/Education/Education';
+import Project from './Components2/Project/Project';
+import Publication from './Components2/Publication/Publication';
 import Skill from './Components2/Skill/Skill';
+import Work from './Components2/Work/Work';
 
 
 function App() {
@@ -26,6 +30,10 @@ function App() {
       <AboutMe />
       <Skill />
       <Certification />
+      <Education />
+      <Project />
+      <Work />
+      <Publication />
     </div>
   );
 }

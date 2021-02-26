@@ -29,7 +29,9 @@ section {
 .ul {
     list-style: none;
     padding: 40px 0 0 20px;
-    width: 30%;
+    width: 40%;
+    position: relative;
+    top: 25%;
 }
 
 .ul span {

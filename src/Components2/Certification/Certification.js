@@ -4,14 +4,14 @@ import './Certification.css';
 
 function Certification() {
     return (
-        <div className="cert">
+        <Element name="cert" className="cert">
             <section className="certContainer">
                 <ul className="ul">
-                    <Element name="cert1">
+                    <div>
                         <li className="stitle">
-                            <p>PROFILE</p>
+                            <p>CERTIFICATION</p>
                         </li>
-                    </Element>
+                    </div>
 
                     <li className="column">
                         <span>FULL NAME</span>
@@ -39,7 +39,7 @@ function Certification() {
                 </li>
             </ul>
         </section>
-        </div>
+    </Element>
     )
 }
 

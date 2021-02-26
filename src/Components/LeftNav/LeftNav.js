@@ -7,15 +7,19 @@ function leftNav() {
         scroll.scrollToTop();
     }
 
-    
+     {/* <div onClick={scrollToTop}></div> */}
 
     return (
         <div className="navBox">
-            <ul className="navBar">
-                <li onClick={scrollToTop}></li>
-                <li><Link activeClass="active" to="skill" spy={true} smooth={true} duration={700}>321</Link></li>
-                <li><Link activeClass="active" to="cert1" spy={true} smooth={true} duration={700}>321</Link></li>
-            </ul>
+            <div className="navBar">
+                <Link activeClass="active" to="about" spy={true} smooth={true} duration={700}></Link>
+                <Link activeClass="active" to="skill" spy={true} smooth={true} duration={700}></Link>
+                <Link activeClass="active" to="cert" spy={true} smooth={true} duration={700}></Link>
+                <Link activeClass="active" to="edu" spy={true} smooth={true} duration={700}></Link>
+                <Link activeClass="active" to="project" spy={true} smooth={true} duration={700}></Link>
+                <Link activeClass="active" to="work" spy={true} smooth={true} duration={700}></Link>
+                <Link activeClass="active" to="publication" spy={true} smooth={true} duration={700}></Link>
+            </div>
         </div>
     )
 }

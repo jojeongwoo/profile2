@@ -4,14 +4,14 @@ import './Skill.css';
 
 function Skill() {
     return (
-        <div className="skill">
+        <Element name="skill" className="skill">
             <section className="skillContainer">
                 <ul className="ul">
-                    <Element name="skill">
+                    <div>
                         <li className="stitle">
-                            <p>PROFILE</p>
+                            <p>SKILL</p>
                         </li>
-                    </Element>
+                    </div>
 
                     <li className="column">
                         <span>FULL NAME</span>
@@ -39,7 +39,7 @@ function Skill() {
                 </li>
             </ul>
         </section>
-    </div>
+    </Element>
     )
 }
 
