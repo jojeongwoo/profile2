@@ -4,15 +4,13 @@ import './Project.css';
 
 function Project() {
     return (
-        <div>
             <Element name="project" className="project">
                 <section className="proContainer">
                     <ul className="ul">
-                        <div>
-                            <li className="stitle">
-                                <p>PROJECT</p>
-                            </li>
-                        </div>
+                        <li className="stitle">
+                            <p>PROJECT</p>
+                        </li>
+                        
 
                         <li className="column">
                             <span>FULL NAME</span>
@@ -39,9 +37,8 @@ function Project() {
                         <p><a>Curriculum Vitae</a></p>
                     </li>
                 </ul>
-            </section>
-        </Element>    
-    </div>
+        </section>
+    </Element>    
     )
 }
 

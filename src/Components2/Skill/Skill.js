@@ -7,11 +7,9 @@ function Skill() {
         <Element name="skill" className="skill">
             <section className="skillContainer">
                 <ul className="ul">
-                    <div>
-                        <li className="stitle">
-                            <p>SKILL</p>
-                        </li>
-                    </div>
+                    <li className="stitle">
+                        <p>SKILL</p>
+                    </li>
 
                     <li className="column">
                         <span>FULL NAME</span>
