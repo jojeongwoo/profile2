@@ -1,5 +1,13 @@
 import React from 'react';
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import {
+    Link,
+    DirectLink,
+    Element,
+    Events,
+    animateScroll as scroll,
+    scrollSpy,
+    scroller,
+} from "react-scroll";
 import './Certification.css';
 
 function Certification() {
@@ -7,11 +15,9 @@ function Certification() {
         <Element name="cert" className="cert">
             <section className="certContainer">
                 <ul className="ul">
-                    <div>
-                        <li className="stitle">
-                            <p>CERTIFICATION</p>
-                        </li>
-                    </div>
+                    <li className="stitle">
+                        <p>CERTIFICATION</p>
+                    </li>
 
                     <li className="column">
                         <span>FULL NAME</span>

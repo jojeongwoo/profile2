@@ -1,5 +1,13 @@
 import React from 'react';
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import {
+    Link,
+    DirectLink,
+    Element,
+    Events,
+    animateScroll as scroll,
+    scrollSpy,
+    scroller,
+} from "react-scroll";
 import './Education.css';
 
 function Education() {
@@ -7,11 +15,9 @@ return (
     <Element name="edu" className="edu">
         <section className="eduContainer">
             <ul className="ul">
-                <div>
-                    <li className="stitle">
-                        <p>EDUCATION</p>
-                    </li>
-                </div>
+                <li className="stitle">
+                    <p>EDUCATION</p>
+                </li>
 
                 <li className="column">
                     <span>FULL NAME</span>

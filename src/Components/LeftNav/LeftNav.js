@@ -13,12 +13,12 @@ function leftNav() {
         <div className="navBox">
             <div className="navBar">
                 <Link activeClass="active" to="about" spy={true} smooth={true} duration={700}></Link>
-                <Link activeClass="active" to="skill" spy={true} smooth={true} duration={700}></Link>
-                <Link activeClass="active" to="cert" spy={true} smooth={true} duration={700}></Link>
-                <Link activeClass="active" to="edu" spy={true} smooth={true} duration={700}></Link>
-                <Link activeClass="active" to="project" spy={true} smooth={true} duration={700}></Link>
-                <Link activeClass="active" to="work" spy={true} smooth={true} duration={700}></Link>
-                <Link activeClass="active" to="publication" spy={true} smooth={true} duration={700}></Link>
+                <Link activeClass="active" to="skill" spy={true} smooth={true} duration={700} offset={10}></Link>
+                <Link activeClass="active" to="cert" spy={true} smooth={true} duration={700} offset={10}></Link>
+                <Link activeClass="active" to="edu" spy={true} smooth={true} duration={700} offset={15}></Link>
+                <Link activeClass="active" to="project" spy={true} smooth={true} duration={700} offset={15}></Link>
+                <Link activeClass="active" to="work" spy={true} smooth={true} duration={700} offset={15}></Link>
+                <Link activeClass="active" to="publication" spy={true} smooth={true} duration={700} offset={20}></Link>
             </div>
         </div>
     )

@@ -20,12 +20,6 @@ import Work from './Components2/Work/Work';
 function App() {
   return (
     <div className="App">
-      {/* <div className="left">
-        <LeftBtn />
-        <LeftNav />
-      </div>
-      <MyInfo />
-      <Profile /> */}
       <LeftNav />
       <AboutMe />
       <Skill />
