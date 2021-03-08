@@ -18,7 +18,6 @@ function Publication() {
                     <li className="stitle">
                         <p>PUBLICATION</p>
                     </li>
-
                     <li className="column">
                         <span>FULL NAME</span>
                         <p>JEONGWOO CHO(조정우)</p>
