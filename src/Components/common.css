@@ -1,26 +1,24 @@
-section {
-    margin: 0 auto;
-    height: 100%;
-    width: 60%;
+.container {
+    height: 100vh;
+    width: 100%;
 }
 
-.title {
+.lastContainer {
+    height: 110vh;
+    width: 100%;
+}
+
+.liTitle {
     font-weight: 600;
     font-size: 15px;
     margin: 8px;
-    display: flex;
-    align-items: center;
 }
 
-.title p {
-    position: relative;
-    right: 45px;
-}
-
-.container {
-    width: 100%;
-    margin-left: 20vw;
+.sectionBox {
     border-left: 3px solid rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+    height: 100%;
+    width: 60%;
 }
 
 .ul {
@@ -44,11 +42,6 @@ section {
     transition: 0.5s ease;
 }
 
-.column:hover {
-    margin-left: 15px;
-}
-
-
 .column a {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding-bottom: 3px;
@@ -70,26 +63,6 @@ section {
     border-bottom: 1px solid #000;
 }
 
-.proTag {
-    width: 30px;
-    height: 30px;
-    background-color: olive;
-    border-radius: 50%;
-    position: relative;
-    left: -120px;
-}
-
-.scrollToTop {
-    font-size: 15px;
-    font-weight: 600;
-    cursor: pointer;
-    margin-left: 8px;
-}
-
-.lastUl {
-    height: 80px;
-}
-
-.bottom {
-    height: 50px;
+.column:hover {
+    margin-left: 15px;
 }

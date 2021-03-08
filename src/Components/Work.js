@@ -8,48 +8,40 @@ import {
     scrollSpy,
     scroller,
 } from "react-scroll";
-import './Work.css';
+import './common.css';
 
 function Work() {
     return (
-        <Element name="work" className="work">
-            <section className="workContainer">
+        <Element name="work" className="container">
+            <section className="sectionBox">
                 <ul className="ul">
-                    <li className="stitle">
-                    <p>WORK</p>
+                    <li className="liTitle">
+                        <p>WORK</p>
                     </li>
 
                     <li className="column">
-                    <span>FULL NAME</span>
-                    <p>JEONGWOO CHO(조정우)</p>
+                        <span>FULL NAME</span>
+                        <p>JEONGWOO CHO(조정우)</p>
                     </li>
 
                     <li className="column">
                     <span>SOCIAL MEDIA</span>
-                    <p>
-                        <a href="#">Flickr</a>
-                    </p>
+                        <p><a href="#">Flickr</a></p>
                     </li>
 
                     <li className="column">
                     <span>GOOGLE SCHOLAR</span>
-                    <p>
-                        <a>Google Scholar Profile</a>
-                    </p>
+                        <p><a>Google Scholar Profile</a></p>
                     </li>
 
                     <li className="column">
                     <span>LINKEDIN PROFILE</span>
-                    <p>
-                        <a>Linkedin</a>
-                    </p>
+                        <p><a>Linkedin</a></p>
                     </li>
 
                     <li className="column">
                     <span>DOWNLOAD CV</span>
-                    <p>
-                        <a>Curriculum Vitae</a>
-                    </p>
+                        <p><a>Curriculum Vitae</a></p>
                     </li>
                 </ul>
             </section>

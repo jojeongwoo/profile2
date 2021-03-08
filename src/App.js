@@ -2,25 +2,19 @@ import React from 'react';
 import './App.css';
 
 // components
-import LeftBtn from './Components/LeftBtn/LeftBtn';
-import LeftNav from './Components/LeftNav/LeftNav';
-import MyInfo from './Components/MyInfo/MyInfo';
-import Profile from './Components/Section/Profile';
-
-
-import AboutMe from './Components2/AboutMe/AboutMe';
-import Certification from './Components2/Certification/Certification';
-import Education from './Components2/Education/Education';
-import Project from './Components2/Project/Project';
-import Publication from './Components2/Publication/Publication';
-import Skill from './Components2/Skill/Skill';
-import Work from './Components2/Work/Work';
-
+import NavBtn from './Components/NavBtn/NavBtn';
+import AboutMe from './Components/AboutMe/AboutMe';
+import Certification from './Components/Certification';
+import Education from './Components/Education';
+import Project from './Components/Project';
+import Publication from './Components/Publication';
+import Skill from './Components/Skill';
+import Work from './Components/Work';
 
 function App() {
   return (
     <div className="App">
-      <LeftNav />
+      <NavBtn />
       <AboutMe />
       <Skill />
       <Certification />

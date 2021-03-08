@@ -8,14 +8,14 @@ import {
     scrollSpy,
     scroller,
 } from "react-scroll";
-import './Education.css';
+import './common.css';
 
 function Education() {
 return (
-    <Element name="edu" className="edu">
-        <section className="eduContainer">
+    <Element name="edu" className="container">
+        <section className="sectionBox">
             <ul className="ul">
-                <li className="stitle">
+                <li className="liTitle">
                     <p>EDUCATION</p>
                 </li>
 

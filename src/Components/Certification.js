@@ -8,14 +8,14 @@ import {
     scrollSpy,
     scroller,
 } from "react-scroll";
-import './Certification.css';
+import './common.css';
 
 function Certification() {
     return (
-        <Element name="cert" className="cert">
-            <section className="certContainer">
+        <Element name="cert" className="container">
+            <section className="sectionBox">
                 <ul className="ul">
-                    <li className="stitle">
+                    <li className="liTitle">
                         <p>CERTIFICATION</p>
                     </li>
 
@@ -41,7 +41,7 @@ function Certification() {
 
                     <li className="column">
                         <span>DOWNLOAD CV</span>
-                    <p><a>Curriculum Vitae</a></p>
+                        <p><a>Curriculum Vitae</a></p>
                 </li>
             </ul>
         </section>

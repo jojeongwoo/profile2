@@ -8,14 +8,14 @@ import {
     scrollSpy,
     scroller,
 } from "react-scroll";
-import './Skill.css';
+import './common.css';
 
 function Skill() {
     return (
-        <Element name="skill" className="skill">
-            <section className="skillContainer">
+        <Element name="skill" className="container">
+            <section className="sectionBox">
                 <ul className="ul">
-                    <li className="stitle">
+                    <li className="liTitle">
                         <p>SKILL</p>
                     </li>
 
@@ -41,7 +41,7 @@ function Skill() {
 
                     <li className="column">
                         <span>DOWNLOAD CV</span>
-                    <p><a>Curriculum Vitae</a></p>
+                        <p><a>Curriculum Vitae</a></p>
                 </li>
             </ul>
         </section>

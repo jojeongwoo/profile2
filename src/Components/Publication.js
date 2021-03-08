@@ -8,14 +8,14 @@ import {
     scrollSpy,
     scroller,
 } from "react-scroll";
-import "./Publication.css";
+import "./common.css";
 
 function Publication() {
     return (
-        <Element name="publication" className="publication">
-            <section className="pubContainer">
+        <Element name="publication" className="lastContainer">
+            <section className="sectionBox">
                 <ul className="ul">
-                    <li className="stitle">
+                    <li className="liTitle">
                         <p>PUBLICATION</p>
                     </li>
                     <li className="column">
@@ -25,30 +25,22 @@ function Publication() {
 
                     <li className="column">
                         <span>SOCIAL MEDIA</span>
-                        <p>
-                            <a href="#">Flickr</a>
-                        </p>
+                        <p><a href="#">Flickr</a></p>
                     </li>
 
                     <li className="column">
                         <span>GOOGLE SCHOLAR</span>
-                        <p>
-                            <a>Google Scholar Profile</a>
-                        </p>
+                        <p><a>Google Scholar Profile</a></p>
                     </li>
 
                     <li className="column">
                         <span>LINKEDIN PROFILE</span>
-                        <p>
-                            <a>Linkedin</a>
-                        </p>
+                        <p><a>Linkedin</a></p>
                     </li>
 
                     <li className="column">
                         <span>DOWNLOAD CV</span>
-                        <p>
-                            <a>Curriculum Vitae</a>
-                        </p>
+                        <p><a>Curriculum Vitae</a></p>
                     </li>
                 </ul>
             </section>

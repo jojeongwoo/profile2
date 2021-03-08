@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-import './LeftNav.css';
+import './NavBtn.css';
 
-function leftNav() {
+function NavBtn() {
     const scrollToTop = () => {
         scroll.scrollToTop();
     }
@@ -18,10 +18,10 @@ function leftNav() {
                 <Link activeClass="active" to="edu" spy={true} smooth={true} duration={700} offset={15}></Link>
                 <Link activeClass="active" to="project" spy={true} smooth={true} duration={700} offset={15}></Link>
                 <Link activeClass="active" to="work" spy={true} smooth={true} duration={700} offset={15}></Link>
-                <Link activeClass="active" to="publication" spy={true} smooth={true} duration={700} offset={20}></Link>
+                <Link activeClass="active" to="publication" spy={true} smooth={true} duration={700} offset={30}></Link>
             </div>
         </div>
     )
 }
 
-export default leftNav;
+export default NavBtn;

@@ -8,14 +8,14 @@ import {
     scrollSpy,
     scroller,
 } from "react-scroll";
-import "./Project.css";
+import "./common.css";
 
 function Project() {
     return (
-        <Element name="project" className="project">
-            <section className="proContainer">
+        <Element name="project" className="container">
+            <section className="sectionBox">
                 <ul className="ul">
-                    <li className="stitle">
+                    <li className="liTitle">
                         <p>PROJECT</p>
                     </li>
                 
@@ -26,30 +26,22 @@ function Project() {
 
                     <li className="column">
                         <span>SOCIAL MEDIA</span>
-                        <p>
-                        <a href="#">Flickr</a>
-                        </p>
+                        <p><a href="#">Flickr</a></p>
                     </li>
 
                     <li className="column">
                         <span>GOOGLE SCHOLAR</span>
-                        <p>
-                        <a>Google Scholar Profile</a>
-                        </p>
+                        <p><a>Google Scholar Profile</a></p>
                     </li>
 
                     <li className="column">
                         <span>LINKEDIN PROFILE</span>
-                        <p>
-                        <a>Linkedin</a>
-                        </p>
+                        <p><a>Linkedin</a></p>
                     </li>
 
                     <li className="column">
                         <span>DOWNLOAD CV</span>
-                        <p>
-                        <a>Curriculum Vitae</a>
-                        </p>
+                        <p><a>Curriculum Vitae</a></p>
                     </li>
                 </ul>
             </section>
